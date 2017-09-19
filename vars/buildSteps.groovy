@@ -3,7 +3,7 @@ BUILT_DIR = 'Built'
 ARCHIVE_DIR = '..\\SLSC_12201_CustomDevice'
 
 // Useful constants
-CUSTOM_DEVICE_PROJECT_PATH = "Source\\Engine Simulation Toolkit Custom Device.lvproj"
+CUSTOM_DEVICE_PROJECT_PATH = "Source\\SLSC-12201 DIO.lvproj"
 
 def build(lvVersion){
    echo 'Building the SLSC-12201 DIO Custom Device...'
