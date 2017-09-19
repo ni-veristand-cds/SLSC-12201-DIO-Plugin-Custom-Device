@@ -7,7 +7,7 @@ CUSTOM_DEVICE_PROJECT_PATH = "Source\\Engine Simulation Toolkit Custom Device.lv
 
 def build(lvVersion){
    echo 'Building the SLSC-12201 DIO Custom Device...'
-   lvBuildAll($CUSTOM_DEVICE_PROJECT_PATH, lvVersion)
+   lvBuildAll(CUSTOM_DEVICE_PROJECT_PATH, lvVersion)
 }
 
 //This function should be a no-op until we can use a toolchain version of LV
