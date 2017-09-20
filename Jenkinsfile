@@ -3,8 +3,8 @@
 @Library('vs-common-build') _
 
 def nodeLabel = 'dcaf'
-def lvVersions = ["2016"]
-def sourceVersion = '2016'
+def lvVersions = ["2017"]
+def sourceVersion = '2017'
 def packageType = ni.vsbuild.PackageType.NIPM
 def officialSupport = false
 
