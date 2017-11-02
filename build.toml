@@ -1,0 +1,11 @@
+[archive]
+build_output_dir = 'Built'
+archive_location = '\\nirvana\temp\dbuck\slsc_12201_custom_device'
+
+[projects.cd]
+path = 'Source\SLSC_12201_CustomDevice.lvproj'
+
+[[build.steps]]
+name = 'Build SLSC-12201 DIO Custom Device'
+type = 'lvBuildAll'
+project = '{cd}'
