@@ -4,4 +4,4 @@
 
 def lvVersions = ['2017']
 
-ni.vsbuild.PipelineExecutor.execute(this, groovyFlow(lvVersions))
+ni.vsbuild.v2.PipelineExecutor.execute(this)
