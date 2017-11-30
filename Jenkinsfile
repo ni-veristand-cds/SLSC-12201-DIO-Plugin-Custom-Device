@@ -4,4 +4,4 @@
 
 def lvVersions = ['2017']
 
-ni.vsbuild.v3.PipelineExecutor.execute(this, lvVersions)
+ni.vsbuild.PipelineExecutor.execute(this, lvVersions)
