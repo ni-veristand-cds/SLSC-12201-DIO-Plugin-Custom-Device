@@ -1,6 +1,6 @@
 [archive]
 build_output_dir = 'Built'
-archive_location = '\\nirvana\temp\dbuck\slsc_12201_custom_device'
+archive_location = '\\nirvana\temp\vs_cds\slsc_12201_custom_device'
 
 [projects.cd]
 path = 'Source\SLSC-12201 DIO.lvproj'
